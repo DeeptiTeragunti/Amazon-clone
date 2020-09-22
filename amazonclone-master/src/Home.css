@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  justify-content: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+}
+
+.home__image {
+  height: 700px;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -200px;
+}
+
+.home__video {
+  height: 800px;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -200px;
+}
